@@ -1,0 +1,15 @@
+{
+  "name": "border-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron .",
+    "package-win": "electron-builder --win --x64",
+    "package-pi": "electron-builder --linux --armv7l"
+  },
+  "devDependencies": {
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1"
+  }
+}
