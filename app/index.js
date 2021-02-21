@@ -4,9 +4,9 @@ const createWindow = () => {
     mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
-        // kiosk: true,  // Make menu bar invisible and non accessible
-        // "fullscreen": true,
-        // "frame": false,
+        kiosk: true,  // Make menu bar invisible and non accessible
+        "fullscreen": true,
+        "frame": false,
         autoHideMenuBar: true,
         webPreferences: {
             nodeIntegration: true,
